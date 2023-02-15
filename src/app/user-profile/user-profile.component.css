@@ -1,0 +1,48 @@
+.profile{
+    height: 400px;
+    width: 900px;
+    background-color: rgb(251, 254, 254);
+    display: flex;
+    grid-gap: 20px;
+  
+}
+
+.pic{
+    height: 250px;
+    width: 100px;
+    background-color: azure;
+    margin-top: 10px;
+    
+
+}
+
+.dtls{
+    height: 220px;
+    width: 500px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left:200px;
+}
+.edit{
+display: flex;
+height: 90px;
+width: 300px;
+background-color:white;
+}
+.editpic{
+    height: 40px;
+    background-color: rgb(243, 199, 88);
+    color:black;
+    
+}
+.editdtl{
+    height: 40px;
+    background-color:rgb(243, 199, 88);
+    margin-left: 30px;
+    color: black;
+}
+.b1{
+    background-color: rgb(68, 231, 68);
+    color: white;
+    border:none;
+}

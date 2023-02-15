@@ -1,0 +1,137 @@
+<!-- main division starts here -->
+<div class="main">
+    <!-- first div -->
+    <div class="one">
+
+        <!-- inner div for input & button -->
+        <div class="d1">
+            <h3><i>I'm looking for...</i></h3><br>
+            <input type="text" placeholder="Enter a job description">
+
+            <button class="b1">
+                Search</button>
+            <br><br>
+            <input type="checkbox"> Full time
+
+            <input type="checkbox"> Part time / Casual / Freelance
+
+            <label for="location" placeholder="">
+                <select name="" id="">
+                    <option value="">Select your location |</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="mumbai">Pune</option>
+                </select>
+            </label>
+        </div>
+        
+
+<div class="regm">
+            <div class="reg">
+
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Register
+
+                </button>
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Register</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="reg_form">
+                                    <div class="pic">
+                                        <input type="file"><br>Upload your photo
+                                    </div>
+                                    <div class="details">
+                                        <div> 
+
+                                            <input type=" text" placeholder=" First Name" required maxlength [(ngModel)]="firstname"><br><br>
+                                            <input type=" text" placeholder="Last Name" [(ngModel)]="lastname"><br><br>
+                                            <input type=" email" placeholder="Email" [(ngModel)]="email"><br><br>
+                                            <input type="number" placeholder="(+91 )" [(ngModel)]="number"><br><br>
+
+                                            Age <input type="range" [title]="age" [(ngModel)]="age" min="20" max="60">
+
+                                            <br>
+
+
+
+                                            <input type="text" placeholder="State" [(ngModel)]="state"><br><br>
+                                            
+                                            
+                                            <input type="text" placeholder="Country" [(ngModel)]="country"><br><br>
+                                            <input type="text" placeholder="Address" [(ngModel)]="address"> 
+                                            <br><br>
+                                            <input type="text" placeholder="Tags" [(ngModel)]="tags"
+                                                (mouseout)="showtag()"><br><br>
+                                            <button *ngFor="let data of tags_values">
+                                                {{data+ " x"}}
+                                            </button>
+
+                                            <br>
+                                            <input type="checkbox">Subscribe to our news letter
+                                            <br><br>
+
+                                            <button type="button" class="btn btn-secondary cnb"
+                                                data-dismiss="modal">Cancel</button>
+                                            <button type="button" class ="bsub" data-dismiss="modal"
+                                            class="btn btn-primary" (click)="adduser()" routerLink="/user_profile">Submit</button>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+ <!-- second div starts here -->
+    <div class="two">
+        <div class="d2">
+            <i>We're leaders in</i>
+
+            <h3>Creative Digital Requirement</h3 >
+            <br>
+            <p>Based in Surry Hills,the creative hub of Sydney we are surrounded by creativity<br>
+                and that reflects on the type of jobs we recruit for.</p>
+            <br>
+            <button class="b3">FIND OUT MORE ABOUT US</button>
+
+        </div>
+    </div>
+    <!-- third div -->
+    <div class="three">
+        <div class="d3">
+            Subscribe to our Job Seeker Mailing List
+            <br><br>
+
+            <input type=" "   placeholder="Enter Your Email Address">
+        </div>
+    </div>
+
+    <!-- fourth div -->
+    <div class="four">
+        <div class="d4">
+            <div class="a">
+             Copyright @ 2014 Two Bytes Consulting.<b>Terms & Polices.</b>
+
+            </div>
+            <div class="b">
+<button class="b4">Tweet</button>692
+<button class="b5">Likes</button>112
+            </div>
+        </div>
+    </div>
+</div>

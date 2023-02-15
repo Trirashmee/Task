@@ -1,0 +1,28 @@
+<div class="profile" *ngFor="let ft of user">
+
+    <div class="pic">
+<img src="/assets/images/w1.jpg" alt="" width="150px" height="150px">
+
+<br>
+<div class="edit">
+<div class="editpi">
+    
+ <button class="editpic" (click)="edpc()">Edit Photo</button>
+</div>
+<div class="edetl" (click)=edit()>
+    <button class="editdtl" >Edit Profile</button>
+</div>
+</div>
+    </div>
+    <div class="dtls">
+
+        <p>I'm {{ft.firstname}} and i'm above 20 years and<br>you can send your emails to <br>
+       {{ft.email}}. I live in the state of <br> {{ft.state}}.I like to play {{ft.tags}}.<br>And please send me newsletters.Please<br>
+    reach me out on {{ft.number}}</p>
+    <br>
+    <button class="b1">I Agree</button>
+    </div>
+
+</div>
+
+
