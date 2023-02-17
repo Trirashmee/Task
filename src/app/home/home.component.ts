@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { DataService } from '../data.service';
 
@@ -13,6 +14,8 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+ 
   age:any;
   tags:any;
   firstname:any;

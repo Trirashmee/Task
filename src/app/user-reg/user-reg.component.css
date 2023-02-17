@@ -1,5 +1,17 @@
 .reg_form{
-    height: 600px;
-    width: 700px;
-    background-color: rgb(246, 251, 251);
+    height: 720px;
+    width: 400px;
+    background-color: rgb(231, 244, 251);
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.btn1{
+    background-color: rgb(35, 36, 36);
+    color: white;
+    
+}
+.btn2{
+    background-color: rgb(114, 181, 240);
+    margin-left: 10px;
+    color: white;
 }

@@ -33,6 +33,7 @@ background-color:white;
     height: 40px;
     background-color: rgb(243, 199, 88);
     color:black;
+    margin-top: 35px;
     
 }
 .editdtl{
@@ -40,9 +41,12 @@ background-color:white;
     background-color:rgb(243, 199, 88);
     margin-left: 30px;
     color: black;
+    margin-top: 35px;
 }
 .b1{
     background-color: rgb(68, 231, 68);
     color: white;
     border:none;
+    
+   
 }
